@@ -24,7 +24,7 @@ const HOW_IT_WORKS = [
     icon: <Activity className="w-6 h-6" />,
     title: 'Device',
     description:
-      'NeuroPatch adheres to the upper back, continuously sampling five physiological channels. The flexible 2" x 11" patch operates passively during uncontrolled daily activity.',
+      'Cognipatch adheres to the upper back, continuously sampling five physiological channels. The flexible 2" x 11" patch operates passively during uncontrolled daily activity.',
     color: '#558AC4',
   },
   {
@@ -75,7 +75,7 @@ export default function AboutPage() {
               <span className="text-[#585B60]">for Psychiatric Care</span>
             </h1>
             <p className="text-xl text-[#585B60] leading-relaxed">
-              CALI is building a continuous physiological monitoring system for psychiatric care, targeting bipolar disorder as the primary application. Current treatment relies on episodic clinical evaluations and subjective self-reporting. NeuroPatch provides continuous sensor data to supplement these assessments with objective, longitudinal physiological records.
+              CALI is building a continuous physiological monitoring system for psychiatric care, targeting bipolar disorder as the primary application. Current treatment relies on episodic clinical evaluations and subjective self-reporting. Cognipatch provides continuous sensor data to supplement these assessments with objective, longitudinal physiological records.
             </p>
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function AboutPage() {
               >
                 <h2 className="text-2xl font-bold text-[#37639C] mb-4">Mission</h2>
                 <p className="text-[#585B60] leading-relaxed">
-                  To provide psychiatrists and their patients with continuous, objective physiological data for monitoring mood state. Bipolar disorder affects an estimated 46 million people globally. Most monitoring today relies on self-reported mood diaries and periodic clinical assessments. NeuroPatch is designed to replace these snapshots with continuous physiological measurement.
+                  To provide psychiatrists and their patients with continuous, objective physiological data for monitoring mood state. Bipolar disorder affects an estimated 46 million people globally. Most monitoring today relies on self-reported mood diaries and periodic clinical assessments. Cognipatch is designed to replace these snapshots with continuous physiological measurement.
                 </p>
               </div>
             </AnimatedSection>
@@ -108,7 +108,7 @@ export default function AboutPage() {
               >
                 <h2 className="text-2xl font-bold text-[#37639C] mb-4">Vision</h2>
                 <p className="text-[#585B60] leading-relaxed">
-                  Psychiatric care with the same physiological data density as cardiology. NeuroPatch is the first step: a five-sensor wearable that provides clinicians with continuous telemetry rather than quarterly appointment snapshots. The system outputs risk scores, baseline deviation metrics, and temporal trends that are directly interpretable without clinical inference from incomplete self-reports.
+                  Psychiatric care with the same physiological data density as cardiology. Cognipatch is the first step: a five-sensor wearable that provides clinicians with continuous telemetry rather than quarterly appointment snapshots. The system outputs risk scores, baseline deviation metrics, and temporal trends that are directly interpretable without clinical inference from incomplete self-reports.
                 </p>
               </div>
             </AnimatedSection>
@@ -216,7 +216,7 @@ export default function AboutPage() {
                     HIPAA-First Architecture
                   </h2>
                   <p className="text-[#585B60] leading-relaxed mb-4">
-                    NeuroPatch is designed with PHI minimization as a first-class requirement. Raw physiological signals are preprocessed on-device. Only derived features are transmitted over encrypted Bluetooth LE to the companion app. The clinician portal enforces role-based access control, maintains a complete audit trail, and encrypts all data at rest and in transit.
+                    Cognipatch is designed with PHI minimization as a first-class requirement. Raw physiological signals are preprocessed on-device. Only derived features are transmitted over encrypted Bluetooth LE to the companion app. The clinician portal enforces role-based access control, maintains a complete audit trail, and encrypts all data at rest and in transit.
                   </p>
                   <p className="text-[#585B60] leading-relaxed">
                     Patient identifiers are decoupled from physiological data at the storage layer. A breach of sensor data cannot be correlated with patient identity without a separate access-controlled key.
